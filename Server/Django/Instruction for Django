@@ -1,1 +1,4 @@
 https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-16-04
+
+source /home/deep/DjangoSklearn/envDjango/bin/activate
+
