@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     #url(r'^forKmeans/', include('forKmeans.urls')),
     url(r'^forKmeans/', include('forKmeans.urls')),
+    url(r'^forKmeans2/', include('forKmeans2.urls')),
 ]

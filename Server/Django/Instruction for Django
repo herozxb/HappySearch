@@ -2,3 +2,10 @@ https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-f
 
 source /home/deep/DjangoSklearn/envDjango/bin/activate
 
+python3 manage.py startapp forKmeans
+
+python3 manage.py runserver 0.0.0.0:8000
+
+http://127.0.0.1:8000/forKmeans/
+
+pip install -U numpy scipy scikit-learn

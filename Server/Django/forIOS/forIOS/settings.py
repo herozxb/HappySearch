@@ -12,6 +12,22 @@ https://docs.djangoproject.com/en/1.8/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import pickle
+import sklearn
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'forIOS.settings'
+
+
+string = "This var is in settings!!!"
+
+
+print("this is in settings")
+print(string)
+print("===================")
+
+kmeans_normal = pickle.load(open('/home/deep/HappySearch/Server/Django/forIOS/forIOS/kmeans', 'rb'))
+
+clf = pickle.load(open('/home/deep/deepLearning/DeepVision/clf100k', 'rb'))
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -37,6 +53,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'forKmeans2'
 )
 
 MIDDLEWARE_CLASSES = (
