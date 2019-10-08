@@ -1,0 +1,2575 @@
+-- Logs begin at 六 2019-05-11 19:41:36 CST, end at 六 2019-05-11 23:23:01 CST. --
+5月 11 19:41:36 deep kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read)[0m
+5月 11 19:41:36 deep kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read)[0m
+5月 11 19:41:36 deep kernel: [0;1;39mrandom: systemd-udevd: uninitialized urandom read (16 bytes read)[0m
+5月 11 19:41:36 deep kernel: ahci 0000:00:17.0: version 3.0
+5月 11 19:41:36 deep kernel: r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+5月 11 19:41:36 deep kernel: [0;1;39mr8169 0000:06:00.0: can't disable ASPM; OS doesn't have ASPM control[0m
+5月 11 19:41:36 deep kernel: nvme nvme0: pci function 0000:07:00.0
+5月 11 19:41:36 deep kernel: ahci 0000:00:17.0: AHCI 0001.0301 32 slots 4 ports 6 Gbps 0x3c impl SATA mode
+5月 11 19:41:36 deep kernel: ahci 0000:00:17.0: flags: 64bit ncq sntf led clo only pio slum part ems deso sadm sds apst 
+5月 11 19:41:36 deep kernel: r8169 0000:06:00.0 eth0: RTL8168h/8111h at 0x        (ptrval), 34:97:f6:95:d7:41, XID 14100800 IRQ 124
+5月 11 19:41:36 deep kernel: r8169 0000:06:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+5月 11 19:41:36 deep kernel: r8169 0000:06:00.0 enp6s0: renamed from eth0
+5月 11 19:41:36 deep kernel: [0;1;39mMXM: GUID detected in BIOS[0m
+5月 11 19:41:36 deep kernel: checking generic (f1000000 300000) vs hw (e0000000 10000000)
+5月 11 19:41:36 deep kernel: checking generic (f1000000 300000) vs hw (f0000000 2000000)
+5月 11 19:41:36 deep kernel: fb: switching to nouveaufb from EFI VGA
+5月 11 19:41:36 deep kernel: Console: switching to colour dummy device 80x25
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: NVIDIA GP104 (134000a1)
+5月 11 19:41:36 deep kernel: scsi host0: ahci
+5月 11 19:41:36 deep kernel: scsi host1: ahci
+5月 11 19:41:36 deep kernel: scsi host2: ahci
+5月 11 19:41:36 deep kernel: scsi host3: ahci
+5月 11 19:41:36 deep kernel: scsi host4: ahci
+5月 11 19:41:36 deep kernel: scsi host5: ahci
+5月 11 19:41:36 deep kernel: ata1: DUMMY
+5月 11 19:41:36 deep kernel: ata2: DUMMY
+5月 11 19:41:36 deep kernel: ata3: SATA max UDMA/133 abar m2048@0xf732b000 port 0xf732b200 irq 122
+5月 11 19:41:36 deep kernel: ata4: SATA max UDMA/133 abar m2048@0xf732b000 port 0xf732b280 irq 122
+5月 11 19:41:36 deep kernel: ata5: SATA max UDMA/133 abar m2048@0xf732b000 port 0xf732b300 irq 122
+5月 11 19:41:36 deep kernel: ata6: SATA max UDMA/133 abar m2048@0xf732b000 port 0xf732b380 irq 122
+5月 11 19:41:36 deep kernel: usb 1-9: New USB device found, idVendor=046d, idProduct=c248
+5月 11 19:41:36 deep kernel: usb 1-9: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+5月 11 19:41:36 deep kernel: usb 1-9: Product: Gaming Keyboard G105
+5月 11 19:41:36 deep kernel: usb 1-9: Manufacturer: Logitech
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: bios: version 86.04.17.00.a7
+5月 11 19:41:36 deep kernel: [0;1;39mnouveau 0000:01:00.0: bios: M0203E type 08[0m
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: fb: 8192 MiB of unknown memory type
+5月 11 19:41:36 deep kernel: [0;1;39mrandom: fast init done[0m
+5月 11 19:41:36 deep kernel: [TTM] Zone  kernel: Available graphics memory: 8179886 kiB
+5月 11 19:41:36 deep kernel: [TTM] Zone   dma32: Available graphics memory: 2097152 kiB
+5月 11 19:41:36 deep kernel: [TTM] Initializing pool allocator
+5月 11 19:41:36 deep kernel: [TTM] Initializing DMA pool allocator
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: VRAM: 8192 MiB
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: GART: 536870912 MiB
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: BIT table 'A' not found
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: BIT table 'L' not found
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: TMDS table version 2.0
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB version 4.1
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 00: 01000f42 00020030
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 01: 04811f96 04600020
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 02: 04011f92 00020020
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 03: 04822f86 04600010
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 04: 04022f82 00020010
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 06: 02033f62 00020010
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 07: 02844f76 04600020
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB outp 08: 02044f72 00020020
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB conn 00: 00001031
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB conn 01: 02000146
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB conn 02: 01000246
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB conn 03: 00010361
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: DCB conn 04: 00020446
+5月 11 19:41:36 deep kernel:  nvme0n1: p1 p2 p3 < p5 p6 p7 >
+5月 11 19:41:36 deep kernel: usb 1-12: new full-speed USB device number 3 using xhci_hcd
+5月 11 19:41:36 deep kernel: [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+5月 11 19:41:36 deep kernel: [drm] Driver supports precise vblank timestamp query.
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: MM: using COPY for buffer copies
+5月 11 19:41:36 deep kernel: ata4: SATA link down (SStatus 4 SControl 300)
+5月 11 19:41:36 deep kernel: ata6: SATA link down (SStatus 4 SControl 300)
+5月 11 19:41:36 deep kernel: ata3: SATA link down (SStatus 4 SControl 300)
+5月 11 19:41:36 deep kernel: ata5: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+5月 11 19:41:36 deep kernel: ata5.00: ATA-10: ST4000DM000-2AE166, 0001, max UDMA/133
+5月 11 19:41:36 deep kernel: ata5.00: 7814037168 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+5月 11 19:41:36 deep kernel: ata5.00: configured for UDMA/133
+5月 11 19:41:36 deep kernel: [0;1;39mscsi 4:0:0:0: Direct-Access     ATA      ST4000DM000-2AE1 0001 PQ: 0 ANSI: 5[0m
+5月 11 19:41:36 deep kernel: [0;1;39msd 4:0:0:0: Attached scsi generic sg0 type 0[0m
+5月 11 19:41:36 deep kernel: [0;1;39msd 4:0:0:0: [sda] 7814037168 512-byte logical blocks: (4.00 TB/3.64 TiB)[0m
+5月 11 19:41:36 deep kernel: [0;1;39msd 4:0:0:0: [sda] 4096-byte physical blocks[0m
+5月 11 19:41:36 deep kernel: [0;1;39msd 4:0:0:0: [sda] Write Protect is off[0m
+5月 11 19:41:36 deep kernel: sd 4:0:0:0: [sda] Mode Sense: 00 3a 00 00
+5月 11 19:41:36 deep kernel: [0;1;39msd 4:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA[0m
+5月 11 19:41:36 deep kernel: usb 1-12: New USB device found, idVendor=046d, idProduct=c087
+5月 11 19:41:36 deep kernel: usb 1-12: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+5月 11 19:41:36 deep kernel: usb 1-12: Product: G703 Wired/Wireless Gaming Mouse
+5月 11 19:41:36 deep kernel: usb 1-12: Manufacturer: Logitech
+5月 11 19:41:36 deep kernel: usb 1-12: SerialNumber: 078436513837
+5月 11 19:41:36 deep kernel: hidraw: raw HID events driver (C) Jiri Kosina
+5月 11 19:41:36 deep kernel: usbcore: registered new interface driver usbhid
+5月 11 19:41:36 deep kernel: usbhid: USB HID core driver
+5月 11 19:41:36 deep kernel: input: Logitech Gaming Keyboard G105 as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.0/0003:046D:C248.0001/input/input6
+5月 11 19:41:36 deep kernel:  sda: sda1 sda2 sda3 sda4 sda5
+5月 11 19:41:36 deep kernel: [0;1;39msd 4:0:0:0: [sda] Attached SCSI disk[0m
+5月 11 19:41:36 deep kernel: hid-generic 0003:046D:C248.0001: input,hidraw0: USB HID v1.10 Keyboard [Logitech Gaming Keyboard G105] on usb-0000:00:14.0-9/input0
+5月 11 19:41:36 deep kernel: input: Logitech Gaming Keyboard G105 as /devices/pci0000:00/0000:00:14.0/usb1/1-9/1-9:1.1/0003:046D:C248.0002/input/input7
+5月 11 19:41:36 deep kernel: clocksource: Switched to clocksource tsc
+5月 11 19:41:36 deep kernel: hid-generic 0003:046D:C248.0002: input,hiddev0,hidraw1: USB HID v1.10 Device [Logitech Gaming Keyboard G105] on usb-0000:00:14.0-9/input1
+5月 11 19:41:36 deep kernel: input: Logitech G703 Wired/Wireless Gaming Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.0/0003:046D:C087.0003/input/input8
+5月 11 19:41:36 deep kernel: hid-generic 0003:046D:C087.0003: input,hidraw2: USB HID v1.11 Mouse [Logitech G703 Wired/Wireless Gaming Mouse] on usb-0000:00:14.0-12/input0
+5月 11 19:41:36 deep kernel: input: Logitech G703 Wired/Wireless Gaming Mouse as /devices/pci0000:00/0000:00:14.0/usb1/1-12/1-12:1.1/0003:046D:C087.0004/input/input9
+5月 11 19:41:36 deep kernel: hid-generic 0003:046D:C087.0004: input,hiddev1,hidraw3: USB HID v1.11 Keyboard [Logitech G703 Wired/Wireless Gaming Mouse] on usb-0000:00:14.0-12/input1
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: DRM: allocated 3440x1440 fb: 0x200000, bo         (ptrval)
+5月 11 19:41:36 deep kernel: fbcon: nouveaufb (fb0) is primary device
+5月 11 19:41:36 deep kernel: Console: switching to colour frame buffer device 430x90
+5月 11 19:41:36 deep kernel: nouveau 0000:01:00.0: fb0: nouveaufb frame buffer device
+5月 11 19:41:36 deep kernel: [drm] Initialized nouveau 1.3.1 20120801 for 0000:01:00.0 on minor 0
+5月 11 19:41:36 deep kernel: [0;1;39mrandom: crng init done[0m
+5月 11 19:41:36 deep kernel: [0;1;39mrandom: 7 urandom warning(s) missed due to ratelimiting[0m
+5月 11 19:41:36 deep kernel: EXT4-fs (sda4): mounted filesystem with ordered data mode. Opts: (null)
+5月 11 19:41:36 deep systemd[1]: systemd 229 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN)
+5月 11 19:41:36 deep systemd[1]: Detected architecture x86-64.
+5月 11 19:41:36 deep systemd[1]: Set hostname to <deep>.
+5月 11 19:41:36 deep kernel: [0;1;39mLockdown: /dev/mem,kmem,port is restricted; see man kernel_lockdown.7[0m
+5月 11 19:41:36 deep systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+5月 11 19:41:36 deep systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+5月 11 19:41:36 deep systemd[1]: Listening on Journal Socket.
+5月 11 19:41:36 deep systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+5月 11 19:41:36 deep systemd[1]: Listening on fsck to fsckd communication Socket.
+5月 11 19:41:36 deep systemd[1]: Reached target Remote File Systems (Pre).
+5月 11 19:41:36 deep systemd[1]: Reached target Remote File Systems.
+5月 11 19:41:36 deep kernel: lp: driver loaded but no devices found
+5月 11 19:41:36 deep systemd-journald[301]: Journal started
+-- Subject: The journal has been started
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- The system journal process has started up, opened the journal
+-- files for writing and is now ready to process requests.
+5月 11 19:41:36 deep systemd-modules-load[296]: Inserted module 'lp'
+5月 11 19:41:36 deep kernel: ppdev: user-space parallel port driver
+5月 11 19:41:36 deep systemd-modules-load[296]: Inserted module 'ppdev'
+5月 11 19:41:36 deep systemd-modules-load[296]: Inserted module 'parport_pc'
+5月 11 19:41:36 deep systemd[1]: Started Load Kernel Modules.
+-- Subject: Unit systemd-modules-load.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-modules-load.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:36 deep systemd[1]: Mounting Configuration File System...
+-- Subject: Unit sys-kernel-config.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-kernel-config.mount has begun starting up.
+5月 11 19:41:36 deep systemd[1]: Starting Apply Kernel Variables...
+-- Subject: Unit systemd-sysctl.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has begun starting up.
+5月 11 19:41:36 deep systemd[1]: Mounting FUSE Control File System...
+-- Subject: Unit sys-fs-fuse-connections.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has begun starting up.
+5月 11 19:41:36 deep systemd[1]: Mounted Configuration File System.
+-- Subject: Unit sys-kernel-config.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-kernel-config.mount has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:36 deep systemd[1]: Mounted FUSE Control File System.
+-- Subject: Unit sys-fs-fuse-connections.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sys-fs-fuse-connections.mount has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:36 deep systemd[1]: Started Apply Kernel Variables.
+-- Subject: Unit systemd-sysctl.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-sysctl.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:36 deep systemd[1]: Started Create Static Device Nodes in /dev.
+-- Subject: Unit systemd-tmpfiles-setup-dev.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup-dev.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:36 deep systemd[1]: Starting udev Kernel Device Manager...
+-- Subject: Unit systemd-udevd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has begun starting up.
+5月 11 19:41:37 deep loadkeys[293]: Loading /etc/console-setup/cached.kmap.gz
+5月 11 19:41:37 deep systemd[1]: Started Set console keymap.
+-- Subject: Unit keyboard-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit keyboard-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.cache/upstart/gnome-keyring-ssh.log: No such file or directory
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.cache/upstart/upstart-event-bridge.log: No such file or directory
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.cache/upstart/gpg-agent.log: No such file or directory
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.cache/upstart/ssh-agent.log: No such file or directory
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.cache/upstart/window-stack-bridge.log: No such file or directory
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.cache/upstart/indicator-sound.log: No such file or directory
+5月 11 19:41:38 deep ureadahead[299]: ureadahead:/home/king/.local/share/gvfs-metadata/home-da0b7dba.log: No such file or directory
+5月 11 19:41:42 deep systemd[1]: Started udev Kernel Device Manager.
+-- Subject: Unit systemd-udevd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udevd.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep systemd[1]: Starting Remount Root and Kernel File Systems...
+-- Subject: Unit systemd-remount-fs.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-remount-fs.service has begun starting up.
+5月 11 19:41:42 deep systemd[1]: Started Remount Root and Kernel File Systems.
+-- Subject: Unit systemd-remount-fs.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-remount-fs.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep kernel: EXT4-fs (sda4): re-mounted. Opts: errors=remount-ro
+5月 11 19:41:42 deep systemd[1]: Starting udev Coldplug all Devices...
+-- Subject: Unit systemd-udev-trigger.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-trigger.service has begun starting up.
+5月 11 19:41:42 deep systemd[1]: Reached target Local File Systems (Pre).
+-- Subject: Unit local-fs-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep systemd[1]: Starting Load/Save Random Seed...
+-- Subject: Unit systemd-random-seed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has begun starting up.
+5月 11 19:41:42 deep systemd[1]: Starting Flush Journal to Persistent Storage...
+-- Subject: Unit systemd-journal-flush.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has begun starting up.
+5月 11 19:41:42 deep systemd[1]: Started Load/Save Random Seed.
+-- Subject: Unit systemd-random-seed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-random-seed.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep systemd[1]: Started Flush Journal to Persistent Storage.
+-- Subject: Unit systemd-journal-flush.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-journal-flush.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep systemd[1]: Started udev Coldplug all Devices.
+-- Subject: Unit systemd-udev-trigger.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-udev-trigger.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep systemd[1]: Starting Show Plymouth Boot Screen...
+-- Subject: Unit plymouth-start.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-start.service has begun starting up.
+5月 11 19:41:42 deep kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+5月 11 19:41:42 deep kernel: mei_me 0000:00:16.0: enabling device (0000 -> 0002)
+5月 11 19:41:42 deep kernel: RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+5月 11 19:41:42 deep kernel: RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+5月 11 19:41:42 deep kernel: RAPL PMU: hw unit of domain package 2^-14 Joules
+5月 11 19:41:42 deep kernel: RAPL PMU: hw unit of domain dram 2^-14 Joules
+5月 11 19:41:42 deep kernel: RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+5月 11 19:41:42 deep kernel: RAPL PMU: hw unit of domain psys 2^-14 Joules
+5月 11 19:41:42 deep kernel: asus_wmi: ASUS WMI generic driver loaded
+5月 11 19:41:42 deep kernel: asus_wmi: Initialization: 0x0
+5月 11 19:41:42 deep kernel: asus_wmi: BIOS WMI version: 0.9
+5月 11 19:41:42 deep kernel: asus_wmi: SFUN value: 0x0
+5月 11 19:41:42 deep kernel: input: Eee PC WMI hotkeys as /devices/platform/eeepc-wmi/input/input10
+5月 11 19:41:42 deep kernel: asus_wmi: Number of fans: 1
+5月 11 19:41:42 deep kernel: AVX2 version of gcm_enc/dec engaged.
+5月 11 19:41:42 deep kernel: AES CTR mode by8 optimization enabled
+5月 11 19:41:42 deep kernel: snd_hda_intel 0000:01:00.1: Disabling MSI
+5月 11 19:41:42 deep kernel: snd_hda_intel 0000:01:00.1: Handle vga_switcheroo audio client
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0: autoconfig for ALC887-VD: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:line
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:    hp_outs=1 (0x1b/0x0/0x0/0x0/0x0)
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:    mono: mono_out=0x0
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:    dig-out=0x11/0x0
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:    inputs:
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:      Front Mic=0x19
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:      Rear Mic=0x18
+5月 11 19:41:42 deep kernel: snd_hda_codec_realtek hdaudioC0D0:      Line=0x1a
+5月 11 19:41:42 deep kernel: intel_rapl: Found RAPL domain package
+5月 11 19:41:42 deep kernel: intel_rapl: Found RAPL domain core
+5月 11 19:41:42 deep kernel: intel_rapl: Found RAPL domain dram
+5月 11 19:41:42 deep systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+-- Subject: Unit systemd-rfkill.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-rfkill.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep kernel: input: HDA Intel PCH Front Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input11
+5月 11 19:41:42 deep kernel: input: HDA Intel PCH Rear Mic as /devices/pci0000:00/0000:00:1f.3/sound/card0/input12
+5月 11 19:41:42 deep kernel: input: HDA Intel PCH Line as /devices/pci0000:00/0000:00:1f.3/sound/card0/input13
+5月 11 19:41:42 deep kernel: input: HDA Intel PCH Line Out as /devices/pci0000:00/0000:00:1f.3/sound/card0/input14
+5月 11 19:41:42 deep kernel: input: HDA Intel PCH Front Headphone as /devices/pci0000:00/0000:00:1f.3/sound/card0/input15
+5月 11 19:41:42 deep systemd[1]: Reached target Sound Card.
+-- Subject: Unit sound.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sound.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep mtp-probe[405]: checking bus 1, device 2: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-9"
+5月 11 19:41:42 deep mtp-probe[404]: checking bus 1, device 3: "/sys/devices/pci0000:00/0000:00:14.0/usb1/1-12"
+5月 11 19:41:42 deep mtp-probe[405]: bus: 1, device: 2 was not an MTP device
+5月 11 19:41:42 deep mtp-probe[404]: bus: 1, device: 3 was not an MTP device
+5月 11 19:41:42 deep systemd[1]: Started Show Plymouth Boot Screen.
+-- Subject: Unit plymouth-start.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-start.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:42 deep systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+-- Subject: Unit systemd-ask-password-plymouth.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-ask-password-plymouth.path has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Found device ST4000DM000-2AE166 EFI\x20System\x20Partition.
+-- Subject: Unit dev-disk-by\x2duuid-5FF1\x2d8693.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-disk-by\x2duuid-5FF1\x2d8693.device has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Starting File System Check on /dev/disk/by-uuid/5FF1-8693...
+-- Subject: Unit systemd-fsck@dev-disk-by\x2duuid-5FF1\x2d8693.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsck@dev-disk-by\x2duuid-5FF1\x2d8693.service has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Started File System Check Daemon to report status.
+-- Subject: Unit systemd-fsckd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsckd.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Found device ST4000DM000-2AE166 5.
+-- Subject: Unit dev-disk-by\x2duuid-fc471445\x2df384\x2d4875\x2db5ae\x2d3ebd5ebc7125.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-disk-by\x2duuid-fc471445\x2df384\x2d4875\x2db5ae\x2d3ebd5ebc7125.device has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Found device ST4000DM000-2AE166 5.
+-- Subject: Unit dev-sda5.device has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-sda5.device has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Activating swap Swap Partition...
+-- Subject: Unit dev-sda5.swap has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-sda5.swap has begun starting up.
+5月 11 19:41:43 deep systemd-fsck[641]: fsck.fat 3.0.28 (2015-05-16)
+5月 11 19:41:43 deep systemd-fsck[641]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+5月 11 19:41:43 deep systemd-fsck[641]:  Automatically removing dirty bit.
+5月 11 19:41:43 deep systemd-fsck[641]: Performing changes.
+5月 11 19:41:43 deep systemd-fsck[641]: /dev/sda3: 8 files, 935/131068 clusters
+5月 11 19:41:43 deep systemd[1]: Started File System Check on /dev/disk/by-uuid/5FF1-8693.
+-- Subject: Unit systemd-fsck@dev-disk-by\x2duuid-5FF1\x2d8693.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-fsck@dev-disk-by\x2duuid-5FF1\x2d8693.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep kernel: Adding 16710652k swap on /dev/sda5.  Priority:-2 extents:1 across:16710652k FS
+5月 11 19:41:43 deep systemd[1]: Mounting /boot/efi...
+-- Subject: Unit boot-efi.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit boot-efi.mount has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Activated swap Swap Partition.
+-- Subject: Unit dev-sda5.swap has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-sda5.swap has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Activated swap /dev/disk/by-uuid/fc471445-f384-4875-b5ae-3ebd5ebc7125.
+-- Subject: Unit dev-disk-by\x2duuid-fc471445\x2df384\x2d4875\x2db5ae\x2d3ebd5ebc7125.swap has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dev-disk-by\x2duuid-fc471445\x2df384\x2d4875\x2db5ae\x2d3ebd5ebc7125.swap has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Reached target Swap.
+-- Subject: Unit swap.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit swap.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Mounted /boot/efi.
+-- Subject: Unit boot-efi.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit boot-efi.mount has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Reached target Local File Systems.
+-- Subject: Unit local-fs.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit local-fs.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Starting Create Volatile Files and Directories...
+-- Subject: Unit systemd-tmpfiles-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+-- Subject: Unit plymouth-read-write.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Starting Clean up any mess left by 0dns-up...
+-- Subject: Unit dns-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dns-clean.service has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Starting Set console font and keymap...
+-- Subject: Unit console-setup.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Starting LSB: AppArmor initialization...
+-- Subject: Unit apparmor.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apparmor.service has begun starting up.
+5月 11 19:41:43 deep systemd-tmpfiles[656]: [0;1;39m[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.[0m
+5月 11 19:41:43 deep systemd[1]: Started Clean up any mess left by 0dns-up.
+-- Subject: Unit dns-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dns-clean.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Starting Nameserver information manager...
+-- Subject: Unit resolvconf.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit resolvconf.service has begun starting up.
+5月 11 19:41:43 deep systemd[1]: Started Nameserver information manager.
+-- Subject: Unit resolvconf.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit resolvconf.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:43 deep systemd[1]: Reached target Network (Pre).
+-- Subject: Unit network-pre.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network-pre.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+-- Subject: Unit plymouth-read-write.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-read-write.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep apparmor[660]:  * Starting AppArmor profiles
+5月 11 19:41:44 deep systemd[1]: Started Set console font and keymap.
+-- Subject: Unit console-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit console-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Created slice system-getty.slice.
+-- Subject: Unit system-getty.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit system-getty.slice has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep apparmor[660]: Skipping profile in /etc/apparmor.d/disable: usr.bin.firefox
+5月 11 19:41:44 deep audit[800]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ippusbxd" pid=800 comm="apparmor_parser"
+5月 11 19:41:44 deep apparmor[660]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.356:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ippusbxd" pid=800 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=798 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep audit[798]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=798 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[793]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=793 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[793]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=793 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[793]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=793 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[793]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=793 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[799]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=799 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[799]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=799 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[799]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=799 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[792]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=792 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[792]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session//chromium" pid=792 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[802]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=802 comm="apparmor_parser"
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=793 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=793 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=793 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=793 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=799 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=799 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=799 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep kernel: [0;1;39maudit: type=1400 audit(1557574904.360:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=792 comm="apparmor_parser"[0m
+5月 11 19:41:44 deep audit[794]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince" pid=794 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[794]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince//sanitized_helper" pid=794 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[794]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer" pid=794 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[794]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-previewer//sanitized_helper" pid=794 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[794]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer" pid=794 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[794]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/evince-thumbnailer//sanitized_helper" pid=794 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[797]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=797 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[797]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=797 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[797]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//snap_update_ns" pid=797 comm="apparmor_parser"
+5月 11 19:41:44 deep systemd[1]: Started Create Volatile Files and Directories.
+-- Subject: Unit systemd-tmpfiles-setup.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-setup.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+-- Subject: Unit systemd-update-utmp.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has begun starting up.
+5月 11 19:41:44 deep audit[796]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="webbrowser-app" pid=796 comm="apparmor_parser"
+5月 11 19:41:44 deep audit[796]: AVC apparmor="STATUS" operation="profile_load" profile="unconfined" name="webbrowser-app//oxide_helper" pid=796 comm="apparmor_parser"
+5月 11 19:41:44 deep apparmor[660]:    ...done.
+5月 11 19:41:44 deep systemd[1]: Starting Network Time Synchronization...
+-- Subject: Unit systemd-timesyncd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-timesyncd.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started LSB: AppArmor initialization.
+-- Subject: Unit apparmor.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apparmor.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting Raise network interfaces...
+-- Subject: Unit networking.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started Update UTMP about System Boot/Shutdown.
+-- Subject: Unit systemd-update-utmp.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Network Time Synchronization.
+-- Subject: Unit systemd-timesyncd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-timesyncd.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Reached target System Initialization.
+-- Subject: Unit sysinit.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sysinit.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Listening on UUID daemon activation socket.
+-- Subject: Unit uuidd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit uuidd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Listening on ACPID Listen Socket.
+-- Subject: Unit acpid.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Listening on D-Bus System Message Bus Socket.
+-- Subject: Unit dbus.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+-- Subject: Unit avahi-daemon.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.path has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Listening on CUPS Scheduler.
+-- Subject: Unit cups.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started ACPI Events Check.
+-- Subject: Unit acpid.path has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.path has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Reached target Paths.
+-- Subject: Unit paths.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit paths.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Daily Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.timer has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.socket has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Reached target System Time Synchronized.
+-- Subject: Unit time-sync.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit time-sync.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Daily apt download activities.
+-- Subject: Unit apt-daily.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily.timer has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Daily apt upgrade and clean activities.
+-- Subject: Unit apt-daily-upgrade.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apt-daily-upgrade.timer has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Timer to automatically refresh installed snaps.
+-- Subject: Unit snapd.refresh.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.refresh.timer has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Reached target Timers.
+-- Subject: Unit timers.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit timers.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Listening on Socket activation for snappy daemon.
+-- Subject: Unit snapd.socket has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.socket has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Reached target Sockets.
+-- Subject: Unit sockets.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit sockets.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Reached target Basic System.
+-- Subject: Unit basic.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit basic.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting Restore /etc/resolv.conf if the system crashed before the ppp link was shut down...
+-- Subject: Unit pppd-dns.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit pppd-dns.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting Login Service...
+-- Subject: Unit systemd-logind.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting System Logging Service...
+-- Subject: Unit rsyslog.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting Permit User Sessions...
+-- Subject: Unit systemd-user-sessions.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started D-Bus System Message Bus.
+-- Subject: Unit dbus.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit dbus.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep dbus[828]: [0;1;39m[system] AppArmor D-Bus mediation is enabled[0m
+5月 11 19:41:44 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.systemd1'[0m
+5月 11 19:41:44 deep systemd[1]: Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...
+-- Subject: Unit ondemand.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ondemand.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started Run anacron jobs.
+-- Subject: Unit anacron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit anacron.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting LSB: Record successful boot for GRUB...
+-- Subject: Unit grub-common.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit grub-common.service has begun starting up.
+5月 11 19:41:44 deep anacron[858]: [0;1;39mAnacron 2.3 started on 2019-05-11[0m
+5月 11 19:41:44 deep systemd[1]: Starting LSB: automatic crash report generation...
+-- Subject: Unit apport.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apport.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting Avahi mDNS/DNS-SD Stack...
+-- Subject: Unit avahi-daemon.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting Detect the available GPUs and deal with any system changes...
+-- Subject: Unit gpu-manager.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit gpu-manager.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting Save/Restore Sound Card State...
+-- Subject: Unit alsa-restore.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-restore.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting Accounts Service...
+-- Subject: Unit accounts-daemon.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started Regular background program processing daemon.
+-- Subject: Unit cron.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cron.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting Thermal Daemon Service...
+-- Subject: Unit thermald.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit thermald.service has begun starting up.
+5月 11 19:41:44 deep cron[870]: (CRON) INFO (pidfile fd = 3)
+5月 11 19:41:44 deep kernel: input: HDA NVidia HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input16
+5月 11 19:41:44 deep kernel: input: HDA NVidia HDMI/DP,pcm=7 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input17
+5月 11 19:41:44 deep kernel: input: HDA NVidia HDMI/DP,pcm=8 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input18
+5月 11 19:41:44 deep kernel: input: HDA NVidia HDMI/DP,pcm=9 as /devices/pci0000:00/0000:00:01.0/0000:01:00.1/sound/card1/input19
+5月 11 19:41:44 deep cron[870]: (CRON) INFO (Running @reboot jobs)
+5月 11 19:41:44 deep systemd[1]: Starting Network Manager...
+-- Subject: Unit NetworkManager.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Starting LSB: daemon to balance interrupts for SMP systems...
+-- Subject: Unit irqbalance.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit irqbalance.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting LSB: Speech Dispatcher...
+-- Subject: Unit speech-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit speech-dispatcher.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Starting Snappy daemon...
+-- Subject: Unit snapd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.service has begun starting up.
+5月 11 19:41:44 deep systemd[1]: Started System Logging Service.
+-- Subject: Unit rsyslog.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rsyslog.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Restore /etc/resolv.conf if the system crashed before the ppp link was shut down.
+-- Subject: Unit pppd-dns.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit pppd-dns.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Permit User Sessions.
+-- Subject: Unit systemd-user-sessions.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-user-sessions.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started Save/Restore Sound Card State.
+-- Subject: Unit alsa-restore.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit alsa-restore.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep systemd[1]: Started LSB: Set the CPU Frequency Scaling governor to "ondemand".
+-- Subject: Unit ondemand.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ondemand.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep speech-dispatcher[884]:  * speech-dispatcher disabled; edit /etc/default/speech-dispatcher
+5月 11 19:41:44 deep systemd[1]: Started LSB: Speech Dispatcher.
+-- Subject: Unit speech-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit speech-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep apport[861]:  * Starting automatic crash report generation: apport
+5月 11 19:41:44 deep systemd-logind[824]: New seat seat0.
+-- Subject: A new seat seat0 is now available
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new seat seat0 has been configured and is now available.
+5月 11 19:41:44 deep systemd-logind[824]: Watching system buttons on /dev/input/event2 (Power Button)
+5月 11 19:41:44 deep systemd-logind[824]: Watching system buttons on /dev/input/event1 (Power Button)
+5月 11 19:41:44 deep systemd-logind[824]: Watching system buttons on /dev/input/event0 (Sleep Button)
+5月 11 19:41:44 deep systemd-logind[824]: Watching system buttons on /dev/input/event7 (Eee PC WMI hotkeys)
+5月 11 19:41:44 deep systemd[1]: Started Login Service.
+-- Subject: Unit systemd-logind.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-logind.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep apport[861]:    ...done.
+5月 11 19:41:44 deep systemd[1]: Started LSB: automatic crash report generation.
+-- Subject: Unit apport.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apport.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:44 deep acpid[885]: starting up with netlink and the input layer
+5月 11 19:41:44 deep anacron[858]: [0;1;39mNormal exit (0 jobs run)[0m
+5月 11 19:41:45 deep gpu-manager[864]: /etc/modprobe.d is not a file
+5月 11 19:41:45 deep gpu-manager[864]: /etc/modprobe.d is not a file
+5月 11 19:41:45 deep gpu-manager[864]: /etc/modprobe.d is not a file
+5月 11 19:41:45 deep gpu-manager[864]: /etc/modprobe.d is not a file
+5月 11 19:41:45 deep gpu-manager[864]: /etc/modprobe.d is not a file
+5月 11 19:41:45 deep gpu-manager[864]: Error: can't open /lib/modules/4.15.0-48-generic/updates/dkms
+5月 11 19:41:45 deep gpu-manager[864]: Error: can't open /lib/modules/4.15.0-48-generic/updates/dkms
+5月 11 19:41:45 deep systemd[1]: Started LSB: Record successful boot for GRUB.
+-- Subject: Unit grub-common.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit grub-common.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:45 deep acpid[885]: 9 rules loaded
+5月 11 19:41:45 deep acpid[885]: waiting for events: event logging is off
+5月 11 19:41:45 deep avahi-daemon[862]: Found user 'avahi' (UID 111) and group 'avahi' (GID 120).
+5月 11 19:41:45 deep avahi-daemon[862]: Successfully dropped root privileges.
+5月 11 19:41:45 deep avahi-daemon[862]: avahi-daemon 0.6.32-rc starting up.
+5月 11 19:41:45 deep systemd[1]: Started Avahi mDNS/DNS-SD Stack.
+-- Subject: Unit avahi-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit avahi-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:45 deep avahi-daemon[862]: Successfully called chroot().
+5月 11 19:41:45 deep avahi-daemon[862]: Successfully dropped remaining capabilities.
+5月 11 19:41:45 deep systemd[1]: Started Make remote CUPS printers available locally.
+-- Subject: Unit cups-browsed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups-browsed.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:45 deep avahi-daemon[862]: No service file found in /etc/avahi/services.
+5月 11 19:41:45 deep avahi-daemon[862]: Network interface enumeration completed.
+5月 11 19:41:45 deep avahi-daemon[862]: Server startup complete. Host name is deep.local. Local service cookie is 2651940287.
+5月 11 19:41:45 deep gpu-manager[864]: update-alternatives: error: no alternatives for x86_64-linux-gnu_gfxcore_conf
+5月 11 19:41:45 deep systemd[1]: Started Detect the available GPUs and deal with any system changes.
+-- Subject: Unit gpu-manager.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit gpu-manager.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:45 deep systemd[1]: Starting Light Display Manager...
+-- Subject: Unit lightdm.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lightdm.service has begun starting up.
+5月 11 19:41:46 deep systemd[1]: Started Thermal Daemon Service.
+-- Subject: Unit thermald.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit thermald.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:46 deep thermald[872]: 22 CPUID levels; family:model:stepping 0x6:5e:3 (6:94:3)
+5月 11 19:41:46 deep thermald[872]: Polling mode is enabled: 4
+5月 11 19:41:46 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkitd.service'[0m
+5月 11 19:41:46 deep systemd[1]: Starting Authenticate and Authorize Users to Run Privileged Tasks...
+-- Subject: Unit polkitd.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has begun starting up.
+5月 11 19:41:46 deep thermald[872]: sysfs read failed constraint_0_max_power_uw
+5月 11 19:41:46 deep polkitd[986]: started daemon version 0.105 using authority implementation `local' version `0.105'
+5月 11 19:41:46 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.PolicyKit1'[0m
+5月 11 19:41:46 deep systemd[1]: Started Authenticate and Authorize Users to Run Privileged Tasks.
+-- Subject: Unit polkitd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit polkitd.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:46 deep accounts-daemon[869]: started daemon version 0.6.40
+5月 11 19:41:46 deep systemd[1]: Started Accounts Service.
+-- Subject: Unit accounts-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit accounts-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.3678] NetworkManager (version 1.2.6) is starting...
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.3680] Read config: /etc/NetworkManager/NetworkManager.conf (etc: default-wifi-powersave-on.conf)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.4144] manager[0x1016200]: monitoring kernel firmware directory '/lib/firmware'.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.4144] monitoring ifupdown state file '/run/network/ifstate'.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.4588] dns-mgr[0x100f140]: init: dns=dnsmasq, rc-manager=resolvconf, plugin=dnsmasq
+5月 11 19:41:46 deep systemd[1]: Started Network Manager.
+-- Subject: Unit NetworkManager.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:46 deep systemd[1]: Starting Network Manager Wait Online...
+-- Subject: Unit NetworkManager-wait-online.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-wait-online.service has begun starting up.
+5月 11 19:41:46 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'[0m
+5月 11 19:41:46 deep systemd[1]: Starting Network Manager Script Dispatcher Service...
+-- Subject: Unit NetworkManager-dispatcher.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has begun starting up.
+5月 11 19:41:46 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.nm_dispatcher'[0m
+5月 11 19:41:46 deep systemd[1]: Started Network Manager Script Dispatcher Service.
+-- Subject: Unit NetworkManager-dispatcher.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-dispatcher.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6664] init!
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6665]       interface-parser: parsing file /etc/network/interfaces
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6665]       interface-parser: finished parsing file /etc/network/interfaces
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6665] management mode: unmanaged
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6667] devices added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:06:00.0/net/enp6s0, iface: enp6s0)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6668] device added (path: /sys/devices/pci0000:00/0000:00:1c.3/0000:06:00.0/net/enp6s0, iface: enp6s0): no ifupdown configuration found.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6668] devices added (path: /sys/devices/virtual/net/lo, iface: lo)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6668] device added (path: /sys/devices/virtual/net/lo, iface: lo): no ifupdown configuration found.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6668] end _init.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6668] settings: loaded plugin ifupdown: (C) 2008 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ifupdown.so)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6668] settings: loaded plugin keyfile: (c) 2007 - 2015 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6669] SettingsPlugin-Ofono: init!
+5月 11 19:41:46 deep NetworkManager[881]: [0;1;39m<warn>  [1557574906.6670] SettingsPlugin-Ofono: file doesn't exist: /var/lib/ofono[0m
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6670] SettingsPlugin-Ofono: end _init.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6670] settings: loaded plugin ofono: (C) 2013-2016 Canonical Ltd.  To report bugs please use the NetworkManager mailing list. (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-settings-plugin-ofono.so)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6670] (16988064) ... get_connections.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.6670] (16988064) ... get_connections (managed=false): return empty list.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.7481] SettingsPlugin-Ofono: (16988288) ... get_connections.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.7481] SettingsPlugin-Ofono: (16988288) connections count: 0
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.7481] get unmanaged devices count: 0
+5月 11 19:41:46 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+5月 11 19:41:46 deep systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+5月 11 19:41:46 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+5月 11 19:41:46 deep systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.7736] settings: hostname: using hostnamed
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.7736] settings: hostname changed from (none) to "deep"
+5月 11 19:41:46 deep nm-dispatcher[1000]: req:1 'hostname': new request (1 scripts)
+5月 11 19:41:46 deep nm-dispatcher[1000]: req:1 'hostname': start running ordered scripts...
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9022] Using DHCP client 'dhclient'
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9023] manager: WiFi enabled by radio killswitch; enabled by state file
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9023] manager: WWAN enabled by radio killswitch; enabled by state file
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9023] manager: Networking is enabled by state file
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMVxlanFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMVlanFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMVethFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMTunFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMMacvlanFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMIPTunnelFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMInfinibandFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMEthernetFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMBridgeFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9024] Loaded device plugin: NMBondFactory (internal)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9903] Loaded device plugin: NMBluezManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-bluetooth.so)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9905] Loaded device plugin: NMWifiFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wifi.so)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9907] Loaded device plugin: NMWwanFactory (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-wwan.so)
+5月 11 19:41:46 deep NetworkManager[881]: <info>  [1557574906.9910] Loaded device plugin: NMAtmManager (/usr/lib/x86_64-linux-gnu/NetworkManager/libnm-device-plugin-adsl.so)
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.0441] manager: (enp6s0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/0)
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.0448] keyfile: add connection in-memory (fe0b53d2-0dcb-3a44-a0b3-b8b700873729,"Wired connection 1")
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.0697] settings: (enp6s0): created default wired connection 'Wired connection 1'
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.0703] device (enp6s0): state change: unmanaged -> unavailable (reason 'managed') [10 20 2]
+5月 11 19:41:47 deep kernel: IPv6: ADDRCONF(NETDEV_UP): enp6s0: link is not ready
+5月 11 19:41:47 deep snapd[887]: AppArmor status: apparmor is enabled and all features are available
+5月 11 19:41:47 deep snapd[887]: 2019/05/11 19:41:47.146907 daemon.go:306: started snapd/2.29.4.2 (series 16; classic) ubuntu/16.04 (amd64) linux/4.15.0-48-generic.
+5月 11 19:41:47 deep systemd[1]: Started Snappy daemon.
+-- Subject: Unit snapd.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit snapd.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:47 deep snapd[887]: 2019/05/11 19:41:47.184115 stateengine.go:98: state ensure error: Get https://api.snapcraft.io/api/v1/snaps/sections: dial tcp: lookup api.snapcraft.io on [::1]:53: read udp [::1]:45217->[::1]:53: read: connection refused
+5月 11 19:41:47 deep NetworkManager[881]: [0;1;31mnm_device_get_device_type: assertion 'NM_IS_DEVICE (self)' failed[0m
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.2799] device (lo): link connected
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.2802] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+5月 11 19:41:47 deep kernel: r8169 0000:06:00.0 enp6s0: link down
+5月 11 19:41:47 deep kernel: r8169 0000:06:00.0 enp6s0: link down
+5月 11 19:41:47 deep kernel: IPv6: ADDRCONF(NETDEV_UP): enp6s0: link is not ready
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.3195] urfkill disappeared from the bus
+5月 11 19:41:47 deep NetworkManager[881]: <info>  [1557574907.3200] ofono is now available
+5月 11 19:41:47 deep NetworkManager[881]: [0;1;39m<warn>  [1557574907.3203] failed to enumerate oFono devices: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.ofono was not provided by any .service files[0m
+5月 11 19:41:47 deep systemd[1]: Received SIGRTMIN+20 from PID 544 (plymouthd).
+5月 11 19:41:47 deep irqbalance[882]:  * Starting SMP IRQ Balancer: irqbalance
+5月 11 19:41:47 deep systemd[1]: Started Raise network interfaces.
+-- Subject: Unit networking.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit networking.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:47 deep systemd[1]: Reached target Network.
+-- Subject: Unit network.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:47 deep systemd[1]: Started Unattended Upgrades Shutdown.
+-- Subject: Unit unattended-upgrades.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit unattended-upgrades.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:47 deep systemd[1]: Received SIGRTMIN+21 from PID 544 (plymouthd).
+5月 11 19:41:47 deep irqbalance[882]:    ...done.
+5月 11 19:41:47 deep systemd[1]: Started LSB: daemon to balance interrupts for SMP systems.
+-- Subject: Unit irqbalance.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit irqbalance.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:47 deep systemd[1]: Started Light Display Manager.
+-- Subject: Unit lightdm.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit lightdm.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:47 deep kernel: [0;1;39mLockdown: ioperm is restricted; see man kernel_lockdown.7[0m
+5月 11 19:41:48 deep kernel: [0;1;31mnouveau 0000:01:00.0: gr: intr 00000040[0m
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8522] device (enp6s0): link connected
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8526] device (enp6s0): state change: unavailable -> disconnected (reason 'carrier-changed') [20 30 40]
+5月 11 19:41:48 deep kernel: r8169 0000:06:00.0 enp6s0: link up
+5月 11 19:41:48 deep kernel: IPv6: ADDRCONF(NETDEV_CHANGE): enp6s0: link becomes ready
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8529] policy: auto-activating connection 'Wired connection 1'
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8536] device (enp6s0): Activation: starting connection 'Wired connection 1' (fe0b53d2-0dcb-3a44-a0b3-b8b700873729)
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8537] device (enp6s0): state change: disconnected -> prepare (reason 'none') [30 40 0]
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8538] manager: NetworkManager state is now CONNECTING
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8540] device (enp6s0): state change: prepare -> config (reason 'none') [40 50 0]
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8542] device (enp6s0): state change: config -> ip-config (reason 'none') [50 70 0]
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.8667] dhcp4 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+5月 11 19:41:48 deep NetworkManager[881]: <info>  [1557574908.9274] dhcp4 (enp6s0): dhclient started with pid 1041
+5月 11 19:41:49 deep dhclient[1041]: DHCPREQUEST of 192.168.1.45 on enp6s0 to 255.255.255.255 port 67 (xid=0x697edcea)
+5月 11 19:41:49 deep lightdm[1050]: [0;1;31mPAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory[0m
+5月 11 19:41:49 deep lightdm[1050]: [0;1;31mPAM adding faulty module: pam_kwallet.so[0m
+5月 11 19:41:49 deep lightdm[1050]: [0;1;31mPAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory[0m
+5月 11 19:41:49 deep lightdm[1050]: [0;1;31mPAM adding faulty module: pam_kwallet5.so[0m
+5月 11 19:41:49 deep lightdm[1050]: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+5月 11 19:41:49 deep systemd[1]: Created slice User Slice of lightdm.
+-- Subject: Unit user-108.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-108.slice has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1]: Starting User Manager for UID 108...
+-- Subject: Unit user@108.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@108.service has begun starting up.
+5月 11 19:41:49 deep systemd-logind[824]: New session c1 of user lightdm.
+-- Subject: A new session c1 has been created for user lightdm
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID c1 has been created for the user lightdm.
+-- 
+-- The leading process of the session is 1050.
+5月 11 19:41:49 deep systemd[1]: Started Session c1 of user lightdm.
+-- Subject: Unit session-c1.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c1.scope has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1053]: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+5月 11 19:41:49 deep systemd[1053]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1053]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1053]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1053]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1053]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep systemd[1053]: Startup finished in 39ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 39914 microseconds.
+5月 11 19:41:49 deep systemd[1]: Started User Manager for UID 108.
+-- Subject: Unit user@108.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@108.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:49 deep org.a11y.atspi.Registry[1081]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+5月 11 19:41:50 deep avahi-daemon[862]: Joining mDNS multicast group on interface enp6s0.IPv6 with address fe80::7a17:c3c3:c623:d550.
+5月 11 19:41:50 deep avahi-daemon[862]: New relevant interface enp6s0.IPv6 for mDNS.
+5月 11 19:41:50 deep avahi-daemon[862]: Registering new address record for fe80::7a17:c3c3:c623:d550 on enp6s0.*.
+5月 11 19:41:50 deep lightdm[1102]: [0;1;31mPAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory[0m
+5月 11 19:41:50 deep lightdm[1102]: [0;1;31mPAM adding faulty module: pam_kwallet.so[0m
+5月 11 19:41:50 deep lightdm[1102]: [0;1;31mPAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory[0m
+5月 11 19:41:50 deep lightdm[1102]: [0;1;31mPAM adding faulty module: pam_kwallet5.so[0m
+5月 11 19:41:50 deep lightdm[1102]: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "king"
+5月 11 19:41:50 deep NetworkManager[881]: <info>  [1557574910.7378] dhcp6 (enp6s0): activation: beginning transaction (timeout in 45 seconds)
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.1304] dhcp6 (enp6s0): dhclient started with pid 1118
+5月 11 19:41:51 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'[0m
+5月 11 19:41:51 deep dhclient[1118]: XMT: Info-Request on enp6s0, interval 1010ms.
+5月 11 19:41:51 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'[0m
+5月 11 19:41:51 deep systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+-- Subject: Unit rtkit-daemon.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rtkit-daemon.service has begun starting up.
+5月 11 19:41:51 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.RealtimeKit1'[0m
+5月 11 19:41:51 deep systemd[1]: Started RealtimeKit Scheduling Policy Service.
+-- Subject: Unit rtkit-daemon.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rtkit-daemon.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Successfully called chroot.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Successfully dropped privileges.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Successfully limited resources.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Running.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Canary thread running.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Watchdog thread running.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Successfully made thread 1164 of process 1164 (n/a) owned by '108' high priority at nice level -11.
+5月 11 19:41:51 deep rtkit-daemon[1165]: Supervising 1 threads of 1 processes of 1 users.
+5月 11 19:41:51 deep dhclient[1118]: RCV: Reply message on enp6s0 from fe80::1.
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.6823] dhcp6 (enp6s0): state changed unknown -> bound
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.6829] device (enp6s0): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+5月 11 19:41:51 deep nm-dispatcher[1000]: req:2 'dhcp6-change' [enp6s0]: new request (1 scripts)
+5月 11 19:41:51 deep nm-dispatcher[1000]: req:2 'dhcp6-change' [enp6s0]: start running ordered scripts...
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.6833] device (enp6s0): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.6837] device (enp6s0): state change: secondaries -> activated (reason 'none') [90 100 0]
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.6838] manager: NetworkManager state is now CONNECTED_LOCAL
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.8425] manager: NetworkManager state is now CONNECTED_GLOBAL
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.8425] policy: set 'Wired connection 1' (enp6s0) as default for IPv6 routing and DNS
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.8426] device (enp6s0): Activation: successful, device activated.
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.8430] dhcp6 (enp6s0): client pid 1118 exited with status 0
+5月 11 19:41:51 deep NetworkManager[881]: <info>  [1557574911.8430] dhcp6 (enp6s0): state changed bound -> done
+5月 11 19:41:51 deep nm-dispatcher[1000]: req:3 'up' [enp6s0]: new request (1 scripts)
+5月 11 19:41:51 deep nm-dispatcher[1000]: req:3 'up' [enp6s0]: start running ordered scripts...
+5月 11 19:41:52 deep dhclient[1041]: DHCPREQUEST of 192.168.1.45 on enp6s0 to 255.255.255.255 port 67 (xid=0x697edcea)
+5月 11 19:41:52 deep dhclient[1041]: DHCPACK of 192.168.1.45 from 192.168.1.1
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355]   address 192.168.1.45
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355]   plen 24 (255.255.255.0)
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355]   gateway 192.168.1.1
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355]   server identifier 192.168.1.1
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355]   lease time 86400
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355]   nameserver '192.168.1.1'
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2355] dhcp4 (enp6s0): state changed unknown -> bound
+5月 11 19:41:52 deep avahi-daemon[862]: Joining mDNS multicast group on interface enp6s0.IPv4 with address 192.168.1.45.
+5月 11 19:41:52 deep avahi-daemon[862]: New relevant interface enp6s0.IPv4 for mDNS.
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2361] policy: set 'Wired connection 1' (enp6s0) as default for IPv4 routing and DNS
+5月 11 19:41:52 deep avahi-daemon[862]: Registering new address record for 192.168.1.45 on enp6s0.IPv4.
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2362] dns-plugin[0x10284e0]: starting dnsmasq...
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.2369] dns-mgr: Writing DNS information to /sbin/resolvconf
+5月 11 19:41:52 deep dnsmasq[1219]: started, version 2.75 cache disabled
+5月 11 19:41:52 deep dnsmasq[1219]: compile time options: IPv6 GNU-getopt DBus i18n IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC loop-detect inotify
+5月 11 19:41:52 deep dnsmasq[1219]: DBus support enabled: connected to system bus
+5月 11 19:41:52 deep dnsmasq[1219]: [0;1;39mwarning: no upstream servers configured[0m
+5月 11 19:41:52 deep dhclient[1041]: bound to 192.168.1.45 -- renewal in 39899 seconds.
+5月 11 19:41:52 deep nm-dispatcher[1000]: req:4 'dhcp4-change' [enp6s0]: new request (1 scripts)
+5月 11 19:41:52 deep nm-dispatcher[1000]: req:4 'dhcp4-change' [enp6s0]: start running ordered scripts...
+5月 11 19:41:52 deep NetworkManager[881]: <info>  [1557574912.6582] dnsmasq[0x10284e0]: dnsmasq appeared as :1.32
+5月 11 19:41:52 deep dnsmasq[1219]: setting upstream servers from DBus
+5月 11 19:41:52 deep dnsmasq[1219]: using nameserver 192.168.1.1#53(via enp6s0)
+5月 11 19:41:53 deep NetworkManager[881]: <info>  [1557574913.7340] manager: startup complete
+5月 11 19:41:53 deep systemd[1]: Started Network Manager Wait Online.
+-- Subject: Unit NetworkManager-wait-online.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit NetworkManager-wait-online.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Reached target Network is Online.
+-- Subject: Unit network-online.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit network-online.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Started crash report submission daemon.
+-- Subject: Unit whoopsie.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit whoopsie.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Starting /etc/rc.local Compatibility...
+-- Subject: Unit rc-local.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has begun starting up.
+5月 11 19:41:53 deep systemd[1]: Started /etc/rc.local Compatibility.
+-- Subject: Unit rc-local.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit rc-local.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Starting Hold until boot process finishes up...
+-- Subject: Unit plymouth-quit-wait.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has begun starting up.
+5月 11 19:41:53 deep systemd[1]: Started Hold until boot process finishes up.
+-- Subject: Unit plymouth-quit-wait.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit plymouth-quit-wait.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Started Getty on tty1.
+-- Subject: Unit getty@tty1.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty@tty1.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Reached target Login Prompts.
+-- Subject: Unit getty.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit getty.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Reached target Multi-User System.
+-- Subject: Unit multi-user.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit multi-user.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Reached target Graphical Interface.
+-- Subject: Unit graphical.target has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit graphical.target has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Started Stop ureadahead data collection 45s after completed startup.
+-- Subject: Unit ureadahead-stop.timer has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead-stop.timer has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Starting Update UTMP about System Runlevel Changes...
+-- Subject: Unit systemd-update-utmp-runlevel.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has begun starting up.
+5月 11 19:41:53 deep systemd[1]: Starting Set console scheme...
+-- Subject: Unit setvtrgb.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit setvtrgb.service has begun starting up.
+5月 11 19:41:53 deep systemd[1]: Started Update UTMP about System Runlevel Changes.
+-- Subject: Unit systemd-update-utmp-runlevel.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-update-utmp-runlevel.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Started Set console scheme.
+-- Subject: Unit setvtrgb.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit setvtrgb.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:53 deep systemd[1]: Startup finished in 15.433s (kernel) + 18.635s (userspace) = 34.069s.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required 15433657 microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 18635482 microseconds.
+5月 11 19:41:53 deep whoopsie[1260]: [19:41:53] Using lock path: /var/lock/whoopsie/lock
+5月 11 19:41:53 deep whoopsie[1260]: [19:41:53] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/0
+5月 11 19:41:53 deep whoopsie[1260]: [19:41:53] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/0
+5月 11 19:41:53 deep whoopsie[1260]: [19:41:53] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+5月 11 19:41:56 deep NetworkManager[881]: <info>  [1557574916.7339] manager: WiFi hardware radio set enabled
+5月 11 19:41:56 deep NetworkManager[881]: <info>  [1557574916.7339] manager: WWAN hardware radio set enabled
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 1 threads of 1 processes of 1 users.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Successfully made thread 1274 of process 1164 (n/a) owned by '108' RT at priority 5.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 2 threads of 1 processes of 1 users.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 2 threads of 1 processes of 1 users.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Successfully made thread 1275 of process 1164 (n/a) owned by '108' RT at priority 5.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 3 threads of 1 processes of 1 users.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 3 threads of 1 processes of 1 users.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Successfully made thread 1276 of process 1164 (n/a) owned by '108' RT at priority 5.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 4 threads of 1 processes of 1 users.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Successfully made thread 1278 of process 1278 (n/a) owned by '108' high priority at nice level -11.
+5月 11 19:41:57 deep rtkit-daemon[1165]: Supervising 5 threads of 2 processes of 1 users.
+5月 11 19:41:57 deep pulseaudio[1278]: [0;1;31m[pulseaudio] pid.c: Daemon already running.[0m
+5月 11 19:41:58 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'[0m
+5月 11 19:41:58 deep systemd[1]: Starting Daemon for power management...
+-- Subject: Unit upower.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit upower.service has begun starting up.
+5月 11 19:41:58 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.UPower'[0m
+5月 11 19:41:58 deep systemd[1]: Started Daemon for power management.
+-- Subject: Unit upower.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit upower.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:41:58 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'[0m
+5月 11 19:41:58 deep systemd[1]: Starting Manage, Install and Generate Color Profiles...
+-- Subject: Unit colord.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit colord.service has begun starting up.
+5月 11 19:41:58 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.ColorManager'[0m
+5月 11 19:41:58 deep systemd[1]: Started Manage, Install and Generate Color Profiles.
+-- Subject: Unit colord.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit colord.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep org.gtk.vfs.Daemon[1066]: [0;1;39mA connection to the bus can't be made[0m
+5月 11 19:42:01 deep lightdm[1050]: pam_unix(lightdm-greeter:session): session closed for user lightdm
+5月 11 19:42:01 deep lightdm[1102]: pam_unix(lightdm:session): session opened for user king by (uid=0)
+5月 11 19:42:01 deep systemd[1]: Created slice User Slice of king.
+-- Subject: Unit user-1000.slice has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-1000.slice has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1]: Starting User Manager for UID 1000...
+-- Subject: Unit user@1000.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has begun starting up.
+5月 11 19:42:01 deep systemd-logind[824]: New session c2 of user king.
+-- Subject: A new session c2 has been created for user king
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A new session with the ID c2 has been created for the user king.
+-- 
+-- The leading process of the session is 1102.
+5月 11 19:42:01 deep systemd[1]: Started Session c2 of user king.
+-- Subject: Unit session-c2.scope has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit session-c2.scope has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1370]: pam_unix(systemd-user:session): session opened for user king by (uid=0)
+5月 11 19:42:01 deep systemd[1370]: Reached target Paths.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1370]: Reached target Timers.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1370]: Reached target Sockets.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1370]: Reached target Basic System.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1370]: Reached target Default.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:01 deep systemd[1370]: Startup finished in 9ms.
+-- Subject: System start-up is now complete
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- All system services necessary queued for starting at boot have been
+-- successfully started. Note that this does not mean that the machine is
+-- now idle as services might still be busy with completing start-up.
+-- 
+-- Kernel start-up required KERNEL_USEC microseconds.
+-- 
+-- Initial RAM disk start-up required INITRD_USEC microseconds.
+-- 
+-- Userspace start-up required 9103 microseconds.
+5月 11 19:42:01 deep systemd[1]: Started User Manager for UID 1000.
+-- Subject: Unit user@1000.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@1000.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:02 deep org.ayatana.bamf[1466]: bamfdaemon start/running, process 1568
+5月 11 19:42:03 deep org.a11y.atspi.Registry[1621]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+5月 11 19:42:04 deep rtkit-daemon[1165]: Successfully made thread 1697 of process 1697 (n/a) owned by '1000' high priority at nice level -11.
+5月 11 19:42:04 deep rtkit-daemon[1165]: Supervising 5 threads of 2 processes of 2 users.
+5月 11 19:42:04 deep org.gnome.ScreenSaver[1466]: [0;1;39m** (gnome-screensaver:1708): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files[0m
+5月 11 19:42:04 deep gnome-keyring-daemon[1376]: [0;1;39mThe PKCS#11 component was already initialized[0m
+5月 11 19:42:04 deep gnome-session[1609]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+5月 11 19:42:04 deep gnome-keyring-daemon[1376]: [0;1;39mThe SSH agent was already initialized[0m
+5月 11 19:42:04 deep gnome-session[1609]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+5月 11 19:42:04 deep gnome-keyring-daemon[1376]: [0;1;39mThe Secret Service was already initialized[0m
+5月 11 19:42:04 deep gnome-session[1609]: SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+5月 11 19:42:08 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'[0m
+5月 11 19:42:08 deep systemd[1]: Starting Disk Manager...
+-- Subject: Unit udisks2.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udisks2.service has begun starting up.
+5月 11 19:42:08 deep udisksd[1834]: [0;1;39mudisks daemon version 2.1.7 starting[0m
+5月 11 19:42:08 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.UDisks2'[0m
+5月 11 19:42:08 deep systemd[1]: Started Disk Manager.
+-- Subject: Unit udisks2.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit udisks2.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:08 deep udisksd[1834]: [0;1;39mAcquired the name org.freedesktop.UDisks2 on the system message bus[0m
+5月 11 19:42:08 deep org.gtk.vfs.AfcVolumeMonitor[1466]: Volume monitor alive
+5月 11 19:42:08 deep udisksd[1834]: [0;1;39mCleaning up mount point /media/king/c1ac4890-74fe-4128-9816-1ea36ffdb951 (device 259:6 is not mounted)[0m
+5月 11 19:42:09 deep org.gnome.ScreenSaver[1466]: [0;1;39m** Message: Lost the name, shutting down.[0m
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 5 threads of 2 processes of 2 users.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Successfully made thread 1896 of process 1697 (n/a) owned by '1000' RT at priority 5.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 6 threads of 2 processes of 2 users.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 6 threads of 2 processes of 2 users.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Successfully made thread 1897 of process 1697 (n/a) owned by '1000' RT at priority 5.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 7 threads of 2 processes of 2 users.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 7 threads of 2 processes of 2 users.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Successfully made thread 1898 of process 1697 (n/a) owned by '1000' RT at priority 5.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 8 threads of 2 processes of 2 users.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Successfully made thread 1900 of process 1900 (n/a) owned by '1000' high priority at nice level -11.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 9 threads of 3 processes of 2 users.
+5月 11 19:42:09 deep pulseaudio[1900]: [0;1;31m[pulseaudio] pid.c: Daemon already running.[0m
+5月 11 19:42:09 deep rtkit-daemon[1165]: Successfully made thread 1902 of process 1902 (n/a) owned by '1000' high priority at nice level -11.
+5月 11 19:42:09 deep rtkit-daemon[1165]: Supervising 9 threads of 3 processes of 2 users.
+5月 11 19:42:09 deep pulseaudio[1902]: [0;1;31m[pulseaudio] pid.c: Daemon already running.[0m
+5月 11 19:42:09 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'[0m
+5月 11 19:42:09 deep systemd[1]: Starting Locale Service...
+-- Subject: Unit systemd-localed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has begun starting up.
+5月 11 19:42:09 deep gnome-session-binary[1609]: [0;1;39mEntering running state[0m
+5月 11 19:42:09 deep gnome-session[1609]: (process:1914): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+5月 11 19:42:09 deep gnome-session[1609]: (process:1914): indicator-application-service-WARNING **: Name Lost
+5月 11 19:42:10 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.locale1'[0m
+5月 11 19:42:10 deep systemd[1]: Started Locale Service.
+-- Subject: Unit systemd-localed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-localed.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:10 deep dbus[828]: [0;1;39m[system] Activating service name='org.freedesktop.fwupd' (using servicehelper)[0m
+5月 11 19:42:10 deep gnome-session[1609]: (nautilus:1913): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+5月 11 19:42:10 deep gnome-session[1609]: (nautilus:1913): GLib-GIO-CRITICAL **: g_dbus_interface_skeleton_unexport: assertion 'interface_->priv->connections != NULL' failed
+5月 11 19:42:10 deep gnome-session[1609]: (nautilus:1913): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+5月 11 19:42:10 deep gnome-session[1609]: (nautilus:1913): GLib-GObject-WARNING **: invalid (NULL) pointer instance
+5月 11 19:42:10 deep gnome-session[1609]: (nautilus:1913): GLib-GObject-CRITICAL **: g_signal_connect_object: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+5月 11 19:42:10 deep polkitd(authority=local)[986]: [0;1;39mRegistered Authentication Agent for unix-session:c2 (system bus name :1.83 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+5月 11 19:42:11 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.fwupd'[0m
+5月 11 19:42:15 deep systemd-timesyncd[809]: Synchronized to time server 91.189.91.157:123 (ntp.ubuntu.com).
+5月 11 19:42:16 deep dbus[828]: [0;1;39m[system] Failed to activate service 'org.bluez': timed out[0m
+5月 11 19:42:16 deep pulseaudio[1697]: [0;1;31m[pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out[0m
+5月 11 19:42:16 deep pulseaudio[1164]: [0;1;31m[pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out[0m
+5月 11 19:42:30 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'[0m
+5月 11 19:42:31 deep org.gnome.zeitgeist.Engine[1466]: [0;1;39m** (zeitgeist-datahub:2259): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus![0m
+5月 11 19:42:39 deep systemd[1]: Starting Stop ureadahead data collection...
+-- Subject: Unit ureadahead-stop.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead-stop.service has begun starting up.
+5月 11 19:42:39 deep systemd[1]: Stopped Read required files in advance.
+-- Subject: Unit ureadahead.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead.service has finished shutting down.
+5月 11 19:42:39 deep systemd[1]: Started Stop ureadahead data collection.
+-- Subject: Unit ureadahead-stop.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit ureadahead-stop.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:42:55 deep dbus[828]: [0;1;39m[system] Failed to activate service 'org.bluez': timed out[0m
+5月 11 19:43:17 deep pkexec[2610]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+5月 11 19:43:17 deep pkexec[2610]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+5月 11 19:43:17 deep pkexec[2610]: [0;1;39mking: Executing command [USER=root] [TTY=unknown] [CWD=/home/king] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+5月 11 19:43:49 deep systemd-logind[824]: Removed session c1.
+-- Subject: Session c1 has been terminated
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- Documentation: http://www.freedesktop.org/wiki/Software/systemd/multiseat
+-- 
+-- A session with the ID c1 has been terminated.
+5月 11 19:43:49 deep systemd[1]: Stopping User Manager for UID 108...
+-- Subject: Unit user@108.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@108.service has begun shutting down.
+5月 11 19:43:49 deep systemd[1053]: Reached target Shutdown.
+-- Subject: Unit UNIT has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 19:43:49 deep systemd[1053]: Stopped target Default.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+5月 11 19:43:49 deep systemd[1053]: Stopped target Basic System.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+5月 11 19:43:49 deep systemd[1053]: Stopped target Sockets.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+5月 11 19:43:49 deep systemd[1053]: Stopped target Paths.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+5月 11 19:43:49 deep systemd[1053]: Stopped target Timers.
+-- Subject: Unit UNIT has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has finished shutting down.
+5月 11 19:43:49 deep systemd[1053]: Starting Exit the Session...
+-- Subject: Unit UNIT has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit UNIT has begun starting up.
+5月 11 19:43:49 deep systemd[1053]: Received SIGRTMIN+24 from PID 2680 (kill).
+5月 11 19:43:49 deep systemd[1054]: pam_unix(systemd-user:session): session closed for user lightdm
+5月 11 19:43:49 deep systemd[1]: Stopped User Manager for UID 108.
+-- Subject: Unit user@108.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user@108.service has finished shutting down.
+5月 11 19:43:49 deep systemd[1]: Removed slice User Slice of lightdm.
+-- Subject: Unit user-108.slice has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit user-108.slice has finished shutting down.
+5月 11 19:44:33 deep systemd-timesyncd[809]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+5月 11 19:44:34 deep systemd-timesyncd[809]: Synchronized to time server 91.189.94.4:123 (ntp.ubuntu.com).
+5月 11 19:57:10 deep systemd[1]: Starting Cleanup of Temporary Directories...
+-- Subject: Unit systemd-tmpfiles-clean.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has begun starting up.
+5月 11 19:57:10 deep systemd-tmpfiles[2772]: [0;1;39m[/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.[0m
+5月 11 19:57:10 deep systemd[1]: Started Cleanup of Temporary Directories.
+-- Subject: Unit systemd-tmpfiles-clean.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-tmpfiles-clean.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 20:17:01 deep CRON[2829]: pam_unix(cron:session): session opened for user root by (uid=0)
+5月 11 20:17:01 deep CRON[2830]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+5月 11 20:17:01 deep CRON[2829]: pam_unix(cron:session): session closed for user root
+5月 11 20:24:28 deep compiz[1757]: gkr-pam: unlocked login keyring
+5月 11 20:42:06 deep org.gnome.evolution.dataserver.Sources5[1466]: [0;1;39m** (evolution-source-registry:1727): WARNING **: secret_service_search_sync: must specify at least one attribute to match[0m
+5月 11 21:17:01 deep CRON[3030]: pam_unix(cron:session): session opened for user root by (uid=0)
+5月 11 21:17:01 deep CRON[3031]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+5月 11 21:17:01 deep CRON[3030]: pam_unix(cron:session): session closed for user root
+5月 11 21:43:49 deep compiz[1757]: gkr-pam: unlocked login keyring
+5月 11 21:45:44 deep kernel: perf: interrupt took too long (2501 > 2500), lowering kernel.perf_event_max_sample_rate to 79750
+5月 11 21:52:54 deep dbus[828]: [0;1;39m[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'[0m
+5月 11 21:52:54 deep systemd[1]: Starting Hostname Service...
+-- Subject: Unit systemd-hostnamed.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has begun starting up.
+5月 11 21:52:54 deep dbus[828]: [0;1;39m[system] Successfully activated service 'org.freedesktop.hostname1'[0m
+5月 11 21:52:54 deep systemd[1]: Started Hostname Service.
+-- Subject: Unit systemd-hostnamed.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit systemd-hostnamed.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:52:54 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 21:52:58 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (gvfsd:1531): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused[0m
+5月 11 21:52:58 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (process:3449): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+5月 11 21:53:01 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (gvfsd:1531): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused[0m
+5月 11 21:53:01 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (process:3442): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted[0m
+5月 11 21:57:35 deep org.freedesktop.FileManager1[1466]: [0;1;39mGtk-Message: GtkDialog mapped without a transient parent. This is discouraged.[0m
+5月 11 21:59:27 deep sudo[3699]: [0;1;39mpam_unix(sudo:auth): authentication failure; logname=king uid=1000 euid=0 tty=/dev/pts/21 ruser=king rhost=  user=king[0m
+5月 11 21:59:31 deep sudo[3699]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/apt install redis-server[0m
+5月 11 21:59:31 deep sudo[3699]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 21:59:41 deep systemd[1]: Reloading.
+5月 11 21:59:41 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:41 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:43 deep groupadd[4123]: group added to /etc/group: name=redis, GID=129
+5月 11 21:59:44 deep groupadd[4123]: group added to /etc/gshadow: name=redis
+5月 11 21:59:44 deep groupadd[4123]: new group: name=redis, GID=129
+5月 11 21:59:44 deep useradd[4127]: new user: name=redis, UID=121, GID=129, home=/var/lib/redis, shell=/bin/false
+5月 11 21:59:44 deep usermod[4134]: change user 'redis' password
+5月 11 21:59:44 deep chage[4139]: changed password expiry for redis
+5月 11 21:59:45 deep systemd[1]: Reloading.
+5月 11 21:59:45 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:45 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:45 deep systemd[1]: Reloading.
+5月 11 21:59:45 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:45 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:45 deep systemd[1]: Reloading.
+5月 11 21:59:45 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:45 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:45 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 21:59:45 deep run-parts[4220]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 21:59:45 deep run-parts[4227]: run-parts: executing /etc/redis/redis-server.post-up.d/00_example
+5月 11 21:59:45 deep systemd[1]: Started Advanced key-value store.
+-- Subject: Unit redis-server.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:46 deep systemd[1]: Reloading.
+5月 11 21:59:46 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:46 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 21:59:48 deep sudo[3699]: pam_unix(sudo:session): session closed for user root
+5月 11 22:01:12 deep pkexec[4300]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+5月 11 22:01:12 deep pkexec[4300]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+5月 11 22:01:12 deep pkexec[4300]: [0;1;39mking: Executing command [USER=root] [TTY=unknown] [CWD=/home/king] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+5月 11 22:04:57 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 22:05:46 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 22:06:44 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 22:06:52 deep systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 4499 (nautilus)
+5月 11 22:06:52 deep systemd[1]: Mounting Arbitrary Executable File Formats File System...
+-- Subject: Unit proc-sys-fs-binfmt_misc.mount has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit proc-sys-fs-binfmt_misc.mount has begun starting up.
+5月 11 22:06:52 deep systemd[1]: Mounted Arbitrary Executable File Formats File System.
+-- Subject: Unit proc-sys-fs-binfmt_misc.mount has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit proc-sys-fs-binfmt_misc.mount has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:07:00 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 22:07:23 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 22:08:26 deep sudo[4616]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/apt-get install vim[0m
+5月 11 22:08:26 deep sudo[4616]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:08:57 deep sudo[4616]: pam_unix(sudo:session): session closed for user root
+5月 11 22:09:01 deep sudo[5148]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/vim redis.conf[0m
+5月 11 22:09:01 deep sudo[5148]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:10:13 deep pkexec[5169]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+5月 11 22:10:13 deep pkexec[5169]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+5月 11 22:10:13 deep pkexec[5169]: [0;1;39mking: Executing command [USER=root] [TTY=unknown] [CWD=/home/king] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+5月 11 22:10:41 deep sudo[5148]: pam_unix(sudo:session): session closed for user root
+5月 11 22:12:16 deep sudo[5205]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/vim redis.conf[0m
+5月 11 22:12:16 deep sudo[5205]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:12:57 deep sudo[5205]: pam_unix(sudo:session): session closed for user root
+5月 11 22:13:44 deep sudo[5220]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/vim redis.conf[0m
+5月 11 22:13:44 deep sudo[5220]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:14:19 deep org.freedesktop.FileManager1[1466]: [0;1;39mGtk-Message: GtkDialog mapped without a transient parent. This is discouraged.[0m
+5月 11 22:17:01 deep CRON[5303]: pam_unix(cron:session): session opened for user root by (uid=0)
+5月 11 22:17:01 deep CRON[5304]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+5月 11 22:17:01 deep CRON[5303]: pam_unix(cron:session): session closed for user root
+5月 11 22:24:10 deep sudo[5220]: pam_unix(sudo:session): session closed for user root
+5月 11 22:25:42 deep sudo[5436]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/apt-get install -y rdiff-backup[0m
+5月 11 22:25:42 deep sudo[5436]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:26:32 deep udisksd[1834]: [0;1;39mMounted /dev/sda2 at /media/king/DeepVision on behalf of uid 1000[0m
+5月 11 22:26:32 deep ntfs-3g[5450]: [0;1;39mVersion 2015.3.14AR.1 integrated FUSE 28[0m
+5月 11 22:26:32 deep ntfs-3g[5450]: [0;1;39mMounted /dev/sda2 (Read-Write, label "DeepVision", NTFS 3.1)[0m
+5月 11 22:26:32 deep ntfs-3g[5450]: [0;1;39mCmdline options: rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2[0m
+5月 11 22:26:32 deep ntfs-3g[5450]: [0;1;39mMount options: rw,nodev,nosuid,uhelper=udisks2,allow_other,nonempty,relatime,default_permissions,fsname=/dev/sda2,blkdev,blksize=4096[0m
+5月 11 22:26:32 deep ntfs-3g[5450]: [0;1;39mGlobal ownership and permissions enforced, configuration type 7[0m
+5月 11 22:26:36 deep org.freedesktop.FileManager1[1466]: [0;1;39mNautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)[0m
+5月 11 22:27:11 deep su[5469]: [0;1;39mpam_unix(su:auth): authentication failure; logname=king uid=1000 euid=0 tty=/dev/pts/19 ruser=king rhost=  user=root[0m
+5月 11 22:27:13 deep su[5469]: [0;1;31mpam_authenticate: Authentication failure[0m
+5月 11 22:27:13 deep su[5469]: [0;1;39mFAILED su for root by king[0m
+5月 11 22:27:13 deep su[5469]: [0;1;39m- /dev/pts/19 king:root[0m
+5月 11 22:27:18 deep sudo[5472]: [0;1;39m    king : TTY=pts/19 ; PWD=/home/king ; USER=root ; COMMAND=/bin/su[0m
+5月 11 22:27:18 deep sudo[5472]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:27:18 deep su[5473]: Successful su for root by root
+5月 11 22:27:18 deep su[5473]: + /dev/pts/19 root:root
+5月 11 22:27:18 deep su[5473]: pam_unix(su:session): session opened for user root by king(uid=0)
+5月 11 22:27:18 deep su[5473]: pam_systemd(su:session): Cannot create session: Already running in a session
+5月 11 22:28:00 deep sudo[5436]: pam_unix(sudo:session): session closed for user root
+5月 11 22:28:12 deep pkexec[7762]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+5月 11 22:28:12 deep pkexec[7762]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+5月 11 22:28:12 deep pkexec[7762]: [0;1;39mking: Executing command [USER=root] [TTY=unknown] [CWD=/home/king] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+5月 11 22:29:07 deep sudo[7774]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/vim redis.conf[0m
+5月 11 22:29:07 deep sudo[7774]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:29:47 deep sudo[7774]: pam_unix(sudo:session): session closed for user root
+5月 11 22:29:57 deep sudo[7779]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/bin/mv /var/lib/redis/*.aof /var/lib/redis/appendonly.aof.old[0m
+5月 11 22:29:57 deep sudo[7779]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:29:57 deep sudo[7779]: pam_unix(sudo:session): session closed for user root
+5月 11 22:30:23 deep sudo[7783]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/bin/mv /var/lib/redis/appendonly.aof /var/lib/redis/appendonly.aof.old[0m
+5月 11 22:30:23 deep sudo[7783]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:30:23 deep sudo[7783]: pam_unix(sudo:session): session closed for user root
+5月 11 22:31:01 deep sudo[7789]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/bin/mv /var/lib/redis/appendonly.aof.old /var/lib/redis/appendonly.aof[0m
+5月 11 22:31:01 deep sudo[7789]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:31:01 deep sudo[7789]: pam_unix(sudo:session): session closed for user root
+5月 11 22:31:13 deep sudo[7792]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/bin/cp /var/lib/redis/appendonly.aof /var/lib/redis/appendonly.aof.old[0m
+5月 11 22:31:13 deep sudo[7792]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:31:13 deep sudo[7792]: pam_unix(sudo:session): session closed for user root
+5月 11 22:35:07 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (process:1886): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/3 (g-dbus-error-quark, 19)[0m
+5月 11 22:38:05 deep sudo[7904]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/cat /var/lib/redis/dump.rdb[0m
+5月 11 22:38:05 deep sudo[7904]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:38:05 deep sudo[7904]: pam_unix(sudo:session): session closed for user root
+5月 11 22:38:29 deep sudo[7909]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/cp /var/lib/redis/dump.rdb /home/king/redis-backup-001[0m
+5月 11 22:38:29 deep sudo[7909]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:38:29 deep sudo[7909]: pam_unix(sudo:session): session closed for user root
+5月 11 22:39:10 deep sudo[7915]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/bin/rdiff-backup --preserve-numerical-ids /var/lib/redis /home/king/redis[0m
+5月 11 22:39:10 deep sudo[7915]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:39:11 deep sudo[7915]: pam_unix(sudo:session): session closed for user root
+5月 11 22:39:23 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (process:1886): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/5 (g-dbus-error-quark, 19)[0m
+5月 11 22:39:32 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (process:1886): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/10 (g-dbus-error-quark, 19)[0m
+5月 11 22:39:40 deep org.gtk.vfs.Daemon[1466]: [0;1;39m** (process:1886): WARNING **: send_done_cb: No such interface 'org.gtk.vfs.Enumerator' on object at path /org/gtk/vfs/client/enumerator/12 (g-dbus-error-quark, 19)[0m
+5月 11 22:39:42 deep sudo[7930]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/bin/rdiff-backup --preserve-numerical-ids /var/lib/redis /home/king/redis[0m
+5月 11 22:39:42 deep sudo[7930]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:39:42 deep sudo[7930]: pam_unix(sudo:session): session closed for user root
+5月 11 22:40:11 deep sudo[7934]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/bin/crontab -e[0m
+5月 11 22:40:11 deep sudo[7934]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:40:11 deep crontab[7935]: (root) BEGIN EDIT (root)
+5月 11 22:40:23 deep crontab[7935]: (root) END EDIT (root)
+5月 11 22:40:23 deep sudo[7934]: pam_unix(sudo:session): session closed for user root
+5月 11 22:40:41 deep sudo[7971]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/bin/crontab -e[0m
+5月 11 22:40:41 deep sudo[7971]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:40:41 deep crontab[7972]: (root) BEGIN EDIT (root)
+5月 11 22:41:05 deep crontab[7972]: (root) REPLACE (root)
+5月 11 22:41:05 deep crontab[7972]: (root) END EDIT (root)
+5月 11 22:41:05 deep sudo[7971]: pam_unix(sudo:session): session closed for user root
+5月 11 22:41:40 deep sudo[7992]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -l /home/king/redis[0m
+5月 11 22:41:40 deep sudo[7992]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:41:40 deep sudo[7992]: pam_unix(sudo:session): session closed for user root
+5月 11 22:44:45 deep sudo[8021]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/cp -p /home/king/redis/dump.rdb /var/lib/redis[0m
+5月 11 22:44:45 deep sudo[8021]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:44:45 deep sudo[8021]: pam_unix(sudo:session): session closed for user root
+5月 11 22:45:48 deep sudo[8030]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -la /var/lib/redis/[0m
+5月 11 22:45:48 deep sudo[8030]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:45:48 deep sudo[8030]: pam_unix(sudo:session): session closed for user root
+5月 11 22:47:28 deep sudo[8046]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -l /home/king/redis[0m
+5月 11 22:47:28 deep sudo[8046]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:47:28 deep sudo[8046]: pam_unix(sudo:session): session closed for user root
+5月 11 22:47:56 deep sudo[8056]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/cp -p /home/king/dump.rdb /var/lib/redis[0m
+5月 11 22:47:56 deep sudo[8056]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:47:59 deep sudo[8056]: pam_unix(sudo:session): session closed for user root
+5月 11 22:48:05 deep sudo[8058]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -la /var/lib/redis/[0m
+5月 11 22:48:05 deep sudo[8058]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:48:05 deep sudo[8058]: pam_unix(sudo:session): session closed for user root
+5月 11 22:48:47 deep sudo[8062]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/chown redis:redis /var/lib/redis/dump.rdb[0m
+5月 11 22:48:47 deep sudo[8062]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:48:47 deep sudo[8062]: pam_unix(sudo:session): session closed for user root
+5月 11 22:48:49 deep sudo[8064]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -la /var/lib/redis/[0m
+5月 11 22:48:49 deep sudo[8064]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:48:49 deep sudo[8064]: pam_unix(sudo:session): session closed for user root
+5月 11 22:56:49 deep sudo[8126]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/apt-get remove redis-server[0m
+5月 11 22:56:49 deep sudo[8126]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 22:56:51 deep systemd[1]: Reloading.
+5月 11 22:56:51 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:56:51 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:56:51 deep systemd[1]: Stopping Advanced key-value store...
+-- Subject: Unit redis-server.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun shutting down.
+5月 11 22:56:51 deep run-parts[8171]: run-parts: executing /etc/redis/redis-server.pre-down.d/00_example
+5月 11 22:56:51 deep run-parts[8181]: run-parts: executing /etc/redis/redis-server.post-down.d/00_example
+5月 11 22:56:51 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 22:56:51 deep systemd[1]: Reloading.
+5月 11 22:56:51 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:56:51 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:56:51 deep systemd[1]: Reloading.
+5月 11 22:56:52 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:56:52 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 22:56:54 deep sudo[8126]: pam_unix(sudo:session): session closed for user root
+5月 11 22:58:12 deep pkexec[8605]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+5月 11 22:58:12 deep pkexec[8605]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+5月 11 22:58:12 deep pkexec[8605]: [0;1;39mking: Executing command [USER=root] [TTY=unknown] [CWD=/home/king] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+5月 11 23:06:35 deep sudo[8713]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/apt-get update[0m
+5月 11 23:06:35 deep sudo[8713]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:07:53 deep sudo[8713]: pam_unix(sudo:session): session closed for user root
+5月 11 23:07:57 deep sudo[8961]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/apt-get install -y python-software-properties[0m
+5月 11 23:07:57 deep sudo[8961]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:08:08 deep sudo[8961]: pam_unix(sudo:session): session closed for user root
+5月 11 23:08:39 deep sudo[9067]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/add-apt-repository -y ppa:rwky/redis[0m
+5月 11 23:08:39 deep sudo[9067]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:08:46 deep sudo[9067]: pam_unix(sudo:session): session closed for user root
+5月 11 23:08:50 deep sudo[9075]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/apt-get update[0m
+5月 11 23:08:50 deep sudo[9075]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:08:55 deep sudo[9075]: pam_unix(sudo:session): session closed for user root
+5月 11 23:09:02 deep sudo[9419]: [0;1;39m    king : TTY=pts/21 ; PWD=/home/king/HappySearch/Server/Django/forIOS2 ; USER=root ; COMMAND=/usr/bin/apt-get install -y redis-server[0m
+5月 11 23:09:02 deep sudo[9419]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:09:07 deep systemd[1]: Reloading.
+5月 11 23:09:07 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:07 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Reloading.
+5月 11 23:09:08 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Reloading.
+5月 11 23:09:08 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Reloading.
+5月 11 23:09:08 deep systemd[1]: Started CUPS Scheduler.
+-- Subject: Unit cups.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit cups.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Started ACPI event daemon.
+-- Subject: Unit acpid.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit acpid.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:08 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 23:09:08 deep run-parts[9886]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 23:09:09 deep run-parts[9892]: run-parts: executing /etc/redis/redis-server.post-up.d/00_example
+5月 11 23:09:09 deep systemd[1]: Started Advanced key-value store.
+-- Subject: Unit redis-server.service has finished start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished starting up.
+-- 
+-- The start-up result is done.
+5月 11 23:09:10 deep sudo[9419]: pam_unix(sudo:session): session closed for user root
+5月 11 23:10:12 deep pkexec[9945]: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+5月 11 23:10:12 deep pkexec[9945]: pam_systemd(polkit-1:session): Cannot create session: Already running in a session
+5月 11 23:10:12 deep pkexec[9945]: [0;1;39mking: Executing command [USER=root] [TTY=unknown] [CWD=/home/king] [COMMAND=/usr/lib/update-notifier/package-system-locked][0m
+5月 11 23:10:31 deep sudo[9955]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/cp -p /home/king/dump.rdb /var/lib/redis[0m
+5月 11 23:10:31 deep sudo[9955]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:10:34 deep sudo[9955]: pam_unix(sudo:session): session closed for user root
+5月 11 23:10:42 deep sudo[9958]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -la /var/lib/redis/[0m
+5月 11 23:10:42 deep sudo[9958]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:10:42 deep sudo[9958]: pam_unix(sudo:session): session closed for user root
+5月 11 23:10:49 deep sudo[9960]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/chown redis:redis /var/lib/redis/dump.rdb[0m
+5月 11 23:10:49 deep sudo[9960]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:10:49 deep sudo[9960]: pam_unix(sudo:session): session closed for user root
+5月 11 23:10:50 deep sudo[9962]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/bin/ls -la /var/lib/redis/[0m
+5月 11 23:10:50 deep sudo[9962]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:10:50 deep sudo[9962]: pam_unix(sudo:session): session closed for user root
+5月 11 23:12:23 deep sudo[9980]: [0;1;39m    king : TTY=pts/2 ; PWD=/etc/redis ; USER=root ; COMMAND=/usr/bin/vim redis.conf[0m
+5月 11 23:12:23 deep sudo[9980]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:17:01 deep CRON[10014]: pam_unix(cron:session): session opened for user root by (uid=0)
+5月 11 23:17:01 deep CRON[10015]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+5月 11 23:17:01 deep CRON[10014]: pam_unix(cron:session): session closed for user root
+5月 11 23:17:01 deep sudo[10017]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/sbin/service redis-server stop[0m
+5月 11 23:17:01 deep sudo[10017]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:17:02 deep systemd[1]: Stopping Advanced key-value store...
+-- Subject: Unit redis-server.service has begun shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun shutting down.
+5月 11 23:17:02 deep run-parts[10045]: run-parts: executing /etc/redis/redis-server.pre-down.d/00_example
+5月 11 23:17:02 deep run-parts[10055]: run-parts: executing /etc/redis/redis-server.post-down.d/00_example
+5月 11 23:17:02 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:17:02 deep sudo[10017]: pam_unix(sudo:session): session closed for user root
+5月 11 23:17:20 deep sudo[10064]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/sbin/service redis-server stop[0m
+5月 11 23:17:20 deep sudo[10064]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:17:20 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:17:20 deep sudo[10064]: pam_unix(sudo:session): session closed for user root
+5月 11 23:17:30 deep sudo[10092]: [0;1;39m    king : TTY=pts/20 ; PWD=/home/king ; USER=root ; COMMAND=/usr/sbin/service redis-server status[0m
+5月 11 23:17:30 deep sudo[10092]: pam_unix(sudo:session): session opened for user root by king(uid=0)
+5月 11 23:17:30 deep sudo[10092]: pam_unix(sudo:session): session closed for user root
+5月 11 23:20:48 deep sudo[9980]: pam_unix(sudo:session): session closed for user root
+5月 11 23:22:01 deep polkitd(authority=local)[986]: [0;1;39mRegistered Authentication Agent for unix-process:10152:1324214 (system bus name :1.115 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+5月 11 23:22:02 deep gnome-session[1609]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+5月 11 23:22:06 deep polkitd(authority=local)[986]: [0;1;39mOperator of unix-session:c2 successfully authenticated as unix-user:king to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.116 [/bin/systemctl --no-pager stop redis-server.service] (owned by unix-user:king)[0m
+5月 11 23:22:06 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:22:06 deep polkitd(authority=local)[986]: [0;1;39mUnregistered Authentication Agent for unix-process:10152:1324214 (system bus name :1.115, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+5月 11 23:22:36 deep org.freedesktop.FileManager1[1466]: [0;1;39mGtk-Message: GtkDialog mapped without a transient parent. This is discouraged.[0m
+5月 11 23:22:54 deep polkitd(authority=local)[986]: [0;1;39mRegistered Authentication Agent for unix-process:10198:1329511 (system bus name :1.121 [/usr/bin/pkttyagent --notify-fd 4 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)[0m
+5月 11 23:22:54 deep gnome-session[1609]: Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+5月 11 23:22:59 deep polkitd(authority=local)[986]: [0;1;39mOperator of unix-session:c2 successfully authenticated as unix-user:king to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.122 [/bin/systemctl --no-pager start redis-server.service] (owned by unix-user:king)[0m
+5月 11 23:22:59 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 23:22:59 deep run-parts[10207]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 23:22:59 deep systemd[1]: [0;1;39mredis-server.service: Control process exited, code=exited status=1[0m
+5月 11 23:22:59 deep systemd[1]: [0;1;31mFailed to start Advanced key-value store.[0m
+-- Subject: Unit redis-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has failed.
+-- 
+-- The result is failed.
+5月 11 23:22:59 deep systemd[1]: [0;1;39mredis-server.service: Unit entered failed state.[0m
+5月 11 23:22:59 deep systemd[1]: [0;1;39mredis-server.service: Failed with result 'exit-code'.[0m
+5月 11 23:22:59 deep polkitd(authority=local)[986]: [0;1;39mUnregistered Authentication Agent for unix-process:10198:1329511 (system bus name :1.121, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)[0m
+5月 11 23:22:59 deep systemd[1]: redis-server.service: Service hold-off time over, scheduling restart.
+5月 11 23:22:59 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:22:59 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 23:22:59 deep run-parts[10236]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 23:22:59 deep systemd[1]: [0;1;39mredis-server.service: Control process exited, code=exited status=1[0m
+5月 11 23:22:59 deep systemd[1]: [0;1;31mFailed to start Advanced key-value store.[0m
+-- Subject: Unit redis-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has failed.
+-- 
+-- The result is failed.
+5月 11 23:22:59 deep systemd[1]: [0;1;39mredis-server.service: Unit entered failed state.[0m
+5月 11 23:22:59 deep systemd[1]: [0;1;39mredis-server.service: Failed with result 'exit-code'.[0m
+5月 11 23:22:59 deep systemd[1]: redis-server.service: Service hold-off time over, scheduling restart.
+5月 11 23:22:59 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:22:59 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 23:23:00 deep run-parts[10246]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 23:23:00 deep systemd[1]: [0;1;39mredis-server.service: Control process exited, code=exited status=1[0m
+5月 11 23:23:00 deep systemd[1]: [0;1;31mFailed to start Advanced key-value store.[0m
+-- Subject: Unit redis-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has failed.
+-- 
+-- The result is failed.
+5月 11 23:23:00 deep systemd[1]: [0;1;39mredis-server.service: Unit entered failed state.[0m
+5月 11 23:23:00 deep systemd[1]: [0;1;39mredis-server.service: Failed with result 'exit-code'.[0m
+5月 11 23:23:00 deep systemd[1]: redis-server.service: Service hold-off time over, scheduling restart.
+5月 11 23:23:00 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:23:00 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 23:23:00 deep run-parts[10257]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 23:23:00 deep systemd[1]: [0;1;39mredis-server.service: Control process exited, code=exited status=1[0m
+5月 11 23:23:00 deep systemd[1]: [0;1;31mFailed to start Advanced key-value store.[0m
+-- Subject: Unit redis-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has failed.
+-- 
+-- The result is failed.
+5月 11 23:23:00 deep systemd[1]: [0;1;39mredis-server.service: Unit entered failed state.[0m
+5月 11 23:23:00 deep systemd[1]: [0;1;39mredis-server.service: Failed with result 'exit-code'.[0m
+5月 11 23:23:00 deep systemd[1]: redis-server.service: Service hold-off time over, scheduling restart.
+5月 11 23:23:00 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:23:00 deep systemd[1]: Starting Advanced key-value store...
+-- Subject: Unit redis-server.service has begun start-up
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has begun starting up.
+5月 11 23:23:01 deep run-parts[10265]: run-parts: executing /etc/redis/redis-server.pre-up.d/00_example
+5月 11 23:23:01 deep systemd[1]: [0;1;39mredis-server.service: Control process exited, code=exited status=1[0m
+5月 11 23:23:01 deep systemd[1]: [0;1;31mFailed to start Advanced key-value store.[0m
+-- Subject: Unit redis-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has failed.
+-- 
+-- The result is failed.
+5月 11 23:23:01 deep systemd[1]: [0;1;39mredis-server.service: Unit entered failed state.[0m
+5月 11 23:23:01 deep systemd[1]: [0;1;39mredis-server.service: Failed with result 'exit-code'.[0m
+5月 11 23:23:01 deep systemd[1]: redis-server.service: Service hold-off time over, scheduling restart.
+5月 11 23:23:01 deep systemd[1]: Stopped Advanced key-value store.
+-- Subject: Unit redis-server.service has finished shutting down
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has finished shutting down.
+5月 11 23:23:01 deep systemd[1]: [0;1;39mredis-server.service: Start request repeated too quickly.[0m
+5月 11 23:23:01 deep systemd[1]: [0;1;31mFailed to start Advanced key-value store.[0m
+-- Subject: Unit redis-server.service has failed
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit redis-server.service has failed.
+-- 
+-- The result is failed.

@@ -1,0 +1,19 @@
+redis-server
+redis-cli
+
+source activate gpu-tensorflow
+sudo /etc/init.d/nginx restart
+
+sudo rm /etc/nginx/sites-enabled/forIOS2_nginx.conf 
+sudo cp forIOS2_nginx.conf /etc/nginx/sites-available/forIOS2_nginx.conf 
+sudo ln -s ~/HappySearch/Server/Django/forIOS2/forIOS2/forIOS2_nginx.conf /etc/nginx/sites-enabled/
+
+src/redis-server --dbfilename dump.rdb --dir /home/king/
+
+#cd forIOS2
+uwsgi --socket forIOS2.sock --module forIOS2.wsgi --chmod-socket=664
+uwsgi --socket forIOS2.sock --wsgi-file test.py --chmod-socket=666 # (very permissive)
+uwsgi --ini forIOS2_uwsgi.ini #
+
+
+
